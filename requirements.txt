@@ -1,0 +1,6 @@
+python-dotenv==1.1.0
+pydantic==2.11.5
+agno==1.5.10
+openai==1.84.0
+tavily-python==0.7.5
+pycountry==24.6.1
