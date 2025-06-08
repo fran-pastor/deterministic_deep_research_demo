@@ -76,7 +76,7 @@ python test_roomcount_agent.py
 
 For a comprehensive exploration of how deterministic AI agents enhance the accuracy and reliability of complex automated processes, read the detailed LinkedIn article:
 
-- [Deterministic AI Agents for Reliable Information Extraction](https://www.linkedin.com/example-article)
+- [Deterministic AI Agents for Reliable Information Extraction](https://www.linkedin.com/pulse/demo-deep-research-determinista-fran-pastor-yjvwf)
 
 ## License
 
