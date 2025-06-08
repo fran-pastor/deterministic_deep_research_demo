@@ -25,22 +25,22 @@ See [`requirements.txt`](requirements.txt) for full dependency details.
 ### Install Dependencies
 
 Run the following command to install the required Python packages:
-
+```bash
 pip install -r requirements.txt
-
+```
 ### Environment Variables
 
 Create a `.env` file in the project root with the necessary API keys:
-
+```bash
 OPENAI_API_KEY=your_openai_key_here
 TAVILY_API_KEY=your_tavily_key_here
-
+```
 ## Usage
 
 After setting the environment variables, execute the agent by running:
-
+```bash
 python roomcount_agent.py
-
+```
 ## Example Tests
 
 The `test_roomcount_agent.py` script provides example cases demonstrating and validating the deterministic behavior of the agent.
