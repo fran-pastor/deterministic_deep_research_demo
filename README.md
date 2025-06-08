@@ -1,58 +1,85 @@
-# Deterministic AI Agent for Accurate Information Extraction
+
+# Deterministic AI Agent for Precise Web Data Extraction
 
 ## Overview
 
-This repository demonstrates the effective use of AI agents to deterministically and accurately extract specific information from web resources. Using a robust, structured approach, the agent consistently achieves its intended goal without deviation.
+This repository presents a practical demonstration of how probabilistic AI technologies, specifically GPT-based models, can be effectively guided to achieve deterministic, reliable, and verifiable results in complex information extraction tasks. The demonstration illustrates how clearly defined workflows and meticulous prompt engineering can direct an AI agent to systematically and accurately retrieve information from web sources.
 
-The project illustrates this capability through an example focused on determining the total number of rooms in hotels by conducting systematic online research and validating sources for reliability and accuracy.
+The showcased example involves determining the precise number of guest rooms available in hotels, using methodical online research and source validation.
 
-## Why This Approach?
+## Why Deterministic Agents?
 
-The key benefit of the demonstrated process is determinism combined with accuracy. Traditional AI agents might yield variable results or stray from their initial objectives due to ambiguity or misinterpretation. However, by clearly defining workflows and embedding precise instructions within the agent's system prompt, the outcomes become highly reliable, verifiable, and repeatable.
+Probabilistic AI models, while powerful, often yield inconsistent results due to their inherent ambiguity. By explicitly embedding structured instructions and decision-making workflows into the agent's prompt, the outcomes become deterministic—ensuring accuracy, repeatability, and trustworthiness essential for critical and advanced agentic processes.
 
-## Implementation
+## Project Highlights
 
-This demonstration uses:
+- **Structured Interaction**: Leverages the Agno framework to manage structured agent interactions.
+- **GPT Integration**: Utilizes OpenAI's GPT models for intelligent parsing and response generation.
+- **Advanced Web Research**: Employs Tavily for thorough web data retrieval and validation.
 
-- **Agno framework** for structured agent interactions.
-- **OpenAI's GPT models** for understanding and generating text responses.
-- **Tavily** for advanced web searches, ensuring comprehensive data retrieval.
+## Installation and Setup
 
-See [`requirements.txt`](requirements.txt) for full dependency details.
+### Virtual Environment
 
-## Setup
+Create and activate a Python virtual environment:
 
-### Install Dependencies
+```bash
+virtualenv .venv
+source .venv/bin/activate
+```
 
-Run the following command to install the required Python packages:
+### Dependencies
+
+Install required Python packages:
+
 ```bash
 pip install -r requirements.txt
 ```
-### Environment Variables
 
-Create a `.env` file in the project root with the necessary API keys:
+Dependencies include:
+- Agno
+- OpenAI
+- Tavily
+- Pydantic
+- python-dotenv
+
+(Refer to [`requirements.txt`](requirements.txt) for exact versions.)
+
+### Environment Configuration
+
+Define your API keys in a `.env` file:
+
 ```bash
 OPENAI_API_KEY=your_openai_key_here
 TAVILY_API_KEY=your_tavily_key_here
 ```
-## Usage
 
-After setting the environment variables, execute the agent by running:
+## Running the Agent
+
+Execute the script to run the deterministic AI agent:
+
 ```bash
 python roomcount_agent.py
 ```
-## Example Tests
 
-The `test_roomcount_agent.py` script provides example cases demonstrating and validating the deterministic behavior of the agent.
+## Testing and Validation
 
-## Further Reading
+The repository includes an example test script, `test_roomcount_agent.py`, demonstrating validation cases to ensure deterministic and correct agent behavior.
 
-For an in-depth explanation of how deterministic AI agents enhance accuracy and reliability in automated research processes, refer to the detailed article on LinkedIn:
+Run tests using:
+
+```bash
+python test_roomcount_agent.py
+```
+
+## In-depth Explanation
+
+For a comprehensive exploration of how deterministic AI agents enhance the accuracy and reliability of complex automated processes, read the detailed LinkedIn article:
 
 - [Deterministic AI Agents for Reliable Information Extraction](https://www.linkedin.com/example-article)
 
 ## License
 
-This project is licensed under the [Apache License 2.0](LICENSE). You're free to use, modify, and distribute this code, provided appropriate credit is given by referencing this repository.
+This project is available under the [Apache License 2.0](LICENSE). Feel free to use, modify, and distribute the code, provided appropriate credit is given to this repository.
 
-Enjoy exploring deterministic and accurate AI agent workflows!
+Explore and leverage deterministic AI workflows for precise and trustworthy information extraction!
